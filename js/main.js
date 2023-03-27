@@ -1,4 +1,4 @@
-document.querySelector('button').addEventListener('click', apiRequest)
+document.getElementById('getButton').addEventListener('click', apiRequest)
 
 
 async function apiRequest(){
